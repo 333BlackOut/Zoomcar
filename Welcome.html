@@ -12,6 +12,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Resources/Welcome.css" />
+    <link rel="stylesheet" href="Resources/Welcome_Responsive.css"/>
     <script src="Resources/Welcome.js"></script>
 </head>
 
@@ -37,7 +38,7 @@
                 <a href="https://www.zoomcar.com/login">Login/Signup</a>
             </div>
         </header>
-        <figure>
+        <figure class="bg-image img-fluid">
             <form id="booking">
                 <input type="text" placeholder="Your Pickup Location" id="location" onclick="city()" required />
                 <button id="find" onclick="city()">Find Cars</button>
@@ -82,11 +83,15 @@
         <section id="offers">
             <div>
                 <h5>OFFERS</h5>
-                <a href="https://www.zoomcar.com/in/delhi/offer/4771"><img src="Resources/figure6.jpeg" alt="Offers 25% off o MediBay" /></a>
-                <a href="https://www.zoomcar.com/in/delhi/offer/4589"><img src="Resources/figure7.jpeg" alt="Rs8000 off Make Way For Vacay" /></a>
-                <a href="https://www.zoomcar.com/in/delhi/offer/3921"><img src="Resources/figure8.jpeg"
-                        alt="Get vouchers Myntra Zoomin Gaana BombayShavingCompany" /></a>
-                <a href="https://www.zoomcar.com/in/delhi/offer/3042"><img src="Resources/figure9.jpeg" alt="Enjoy 20% off on Mastercard" /></a>
+                <div>
+                    <a href="https://www.zoomcar.com/in/delhi/offer/4771"><img src="Resources/figure6.jpeg" alt="Offers 25% off o MediBay" /></a>
+                    <a href="https://www.zoomcar.com/in/delhi/offer/4589"><img src="Resources/figure7.jpeg" alt="Rs8000 off Make Way For Vacay" /></a>
+                </div>
+                <div>
+                    <a href="https://www.zoomcar.com/in/delhi/offer/3921"><img src="Resources/figure8.jpeg"
+                    alt="Get vouchers Myntra Zoomin Gaana BombayShavingCompany" /></a>
+                    <a href="https://www.zoomcar.com/in/delhi/offer/3042"><img src="Resources/figure9.jpeg" alt="Enjoy 20% off on Mastercard" /></a>
+                </div>
             </div>
         </section>
         <section id="about">
