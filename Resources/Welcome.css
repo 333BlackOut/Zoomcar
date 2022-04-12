@@ -23,10 +23,7 @@ button{
   border: none;
   background-color: transparent;
 }
-form button{
-  width:100%;
-}
-input{
+#find, #location{
   width:100%;
 }
 nav{
