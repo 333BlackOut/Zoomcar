@@ -23,9 +23,6 @@ button{
   border: none;
   background-color: transparent;
 }
-#find, #location{
-  width:100%;
-}
 nav{
   width:100%;
 }
@@ -187,4 +184,9 @@ footer>p{
   text-align: center;
   color: grey;
   font-size: small;
+}
+@media (max-width: 600px){
+  #find, #location{
+  width:100%;
+  }
 }
