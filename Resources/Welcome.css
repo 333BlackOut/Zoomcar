@@ -19,10 +19,12 @@ header{
   float: right;
   padding-top: 10px;
 }
-form button{
+button{
   border: none;
   background-color: transparent;
-  width: 100%;
+}
+form button{
+  width:100%;
 }
 input{
   width:100%;
