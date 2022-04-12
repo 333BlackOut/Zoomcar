@@ -23,6 +23,9 @@ button{
   border: none;
   background-color: transparent;
 }
+nav{
+  width:100%;
+}
 #NavRight a{
   text-decoration: none;
   color: white;
