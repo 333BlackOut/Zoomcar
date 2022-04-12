@@ -185,7 +185,7 @@ footer>p{
   color: grey;
   font-size: small;
 }
-@media (max-width: 600px){
+@media (min-width: 0px) and (max-width: 600px){
   #find, #location{
   width:100%;
   }
