@@ -185,8 +185,16 @@ footer>p{
   color: grey;
   font-size: small;
 }
-@media (min-width: 0px) and (max-width: 600px){
+@media (min-width: 350px) and (max-width: 600px){
   #find, #location, form, figure{
-  width:100%;
+  width: 80%;
+  }
+}
+@media (max-width: 350px){
+   #find, #location, form, figure{
+  width: 100%;
+  }
+  #offers a, #offers img{
+    width: 80%;
   }
 }
