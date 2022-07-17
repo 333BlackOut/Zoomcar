@@ -186,7 +186,7 @@ footer>p{
   font-size: small;
 }
 @media (min-width: 0px) and (max-width: 600px){
-  #find, #location{
+  #find, #location, form, figure{
   width:100%;
   }
 }
