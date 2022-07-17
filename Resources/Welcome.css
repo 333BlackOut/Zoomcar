@@ -196,5 +196,15 @@ footer>p{
   }
   #offers a, #offers img{
     width: 150px;
+    height: 100px;
+  }
+  #links img{
+    width: 50px;
+  }
+  #links>a>div{
+  width: 50%;
+  }
+  #links>a>div>div{
+  width: 100%;
   }
 }
